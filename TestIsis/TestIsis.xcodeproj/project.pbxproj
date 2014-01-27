@@ -21,6 +21,7 @@
 		6887DA001896611600A7EC02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6887D9E21896611600A7EC02 /* UIKit.framework */; };
 		6887DA081896611600A7EC02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6887DA061896611600A7EC02 /* InfoPlist.strings */; };
 		6887DA0A1896611600A7EC02 /* TestIsisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6887DA091896611600A7EC02 /* TestIsisTests.m */; };
+		6887DA151896794000A7EC02 /* sudip.m in Sources */ = {isa = PBXBuildFile; fileRef = 6887DA141896794000A7EC02 /* sudip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6887DA051896611600A7EC02 /* TestIsisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestIsisTests-Info.plist"; sourceTree = "<group>"; };
 		6887DA071896611600A7EC02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6887DA091896611600A7EC02 /* TestIsisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestIsisTests.m; sourceTree = "<group>"; };
+		6887DA131896794000A7EC02 /* sudip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sudip.h; path = ../sudip.h; sourceTree = "<group>"; };
+		6887DA141896794000A7EC02 /* sudip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sudip.m; path = ../sudip.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		6887D9E41896611600A7EC02 /* TestIsis */ = {
 			isa = PBXGroup;
 			children = (
+				6887DA131896794000A7EC02 /* sudip.h */,
+				6887DA141896794000A7EC02 /* sudip.m */,
 				6887D9ED1896611600A7EC02 /* AppDelegate.h */,
 				6887D9EE1896611600A7EC02 /* AppDelegate.m */,
 				6887D9F01896611600A7EC02 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 				6887D9F51896611600A7EC02 /* ViewController.m in Sources */,
 				6887D9EF1896611600A7EC02 /* AppDelegate.m in Sources */,
 				6887D9EB1896611600A7EC02 /* main.m in Sources */,
+				6887DA151896794000A7EC02 /* sudip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +466,7 @@
 				6887DA0F1896611600A7EC02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6887DA101896611600A7EC02 /* Build configuration list for PBXNativeTarget "TestIsisTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				6887DA121896611600A7EC02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
